@@ -1,0 +1,18 @@
+{
+  "name": "charice-bot",
+  "version": "1.0.0",
+  "description": "bot that helps you find christian song lyric and chord",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/sonnylazuardi/charice-bot",
+    "type": "git"
+  },
+  "author": "sonnylazuardi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
+}
