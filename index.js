@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/webhook/', (req, res) => {
-    if (req.query('hub.verify_token') == 'charice_will_win_c4tk') {
-        res.send(req.query('hub.challenge'))
+    if (req.query['hub.verify_token'] == 'charice_will_win_c4tk') {
+        res.send(req.query['hub.challenge'])
     }
     res.send('Error, wrong token');
 });
